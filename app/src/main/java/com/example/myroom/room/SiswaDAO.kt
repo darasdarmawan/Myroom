@@ -2,9 +2,10 @@ package com.example.myroom.room
 
 import androidx.room.Dao
 import androidx.room.Query
+import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface SiswaDAO {
     @Query("SELECT * from tblSiswa ORDER BY nama ASC")
-
+    fun getAllSiswa(): Flow<List<Siswa>>
 }
