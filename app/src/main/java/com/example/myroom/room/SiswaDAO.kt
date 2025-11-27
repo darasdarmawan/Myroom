@@ -12,5 +12,5 @@ interface SiswaDAO {
     fun getAllSiswa(): Flow<List<Siswa>>
 
     @Insert(onConflict = OnConflictStrategy.IGNORE)
-
+    suspend fun insert(siswa: Siswa)
 }
