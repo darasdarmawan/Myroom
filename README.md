@@ -15,3 +15,15 @@ Hasil nya :
 4. :
    
    <img width="911" height="539" alt="popup delete-pam" src="https://github.com/user-attachments/assets/3a6909d2-46dc-4b21-b32b-485937d05c52" />
+
+5. :
+   
+<img width="894" height="539" alt="setelah delete" src="https://github.com/user-attachments/assets/96200240-5170-464f-a257-5e293cb99881" />
+
+6. :
+
+   <img width="879" height="539" alt="edit-siswaform" src="https://github.com/user-attachments/assets/a4d016c8-aaab-49ac-8b41-66edaecfac0d" />
+
+7. :
+
+   <img width="901" height="539" alt="setelah edit" src="https://github.com/user-attachments/assets/37fbe695-7e09-42a6-96ff-b7e5d69ce8a3" />
