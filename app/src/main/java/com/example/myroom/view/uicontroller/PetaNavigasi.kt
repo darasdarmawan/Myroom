@@ -13,6 +13,7 @@ import androidx.navigation.navArgument
 import com.example.myroom.view.EntrySiswaScreen
 import com.example.myroom.view.HomeScreen
 import com.example.myroom.view.route.DestinasiDetailSiswa
+import com.example.myroom.view.route.DestinasiDetailSiswa.itemIdArg
 import com.example.myroom.view.route.DestinasiEntry
 import com.example.myroom.view.route.DestinasiHome
 
@@ -35,6 +36,10 @@ fun HostNavigasi(
             HomeScreen(
                 navigateToItemEntry = {navController.navigate(DestinasiEntry
                     .route)},
+                //edit 1 : tambah parameter navigate to item update
+                navigateToItemUpdate ={
+                    navController.navigate("${DestinasiDetailSiswa.route}/${it}")
+                }
             )
         }
         composable(DestinasiEntry.route){
